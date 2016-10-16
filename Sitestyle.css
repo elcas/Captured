@@ -1,0 +1,57 @@
+.top_header{
+	color:blue;
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size:50px;
+}
+
+.banner{
+	height: 300px;
+	width: 500px;
+}
+.nav{
+	text-align: center;
+	vertical-align: top;
+	padding:10px;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
+.nav li{
+	display: inline;
+}
+.nav a {
+	color:white;
+	padding:50px;
+	font-family: 'Tangerine', cursive;
+}
+.image-slider-wrapper{
+	overflow: hidden;
+}
+#image_slider{
+	position: relative;
+	overflow: hidden;
+	height: 500px;
+	padding:0;
+	left:0;
+}
+#image_slider li{
+	position: relative;
+	max-width: 100%;
+	float:left;
+	list-style: none;
+	left: 0;
+}
+
+/*
+    font-family: 'Londrina Shadow', cursive;
+
+    font-family: 'Gentium Basic', serif;
+
+    font-family: 'Tangerine', cursive;
+
+    font-family: 'Sacramento', cursive;
+
+    font-family: 'Codystar', cursive;
+*/
