@@ -9,16 +9,32 @@
 	<body>
 		<header>
 		<h1 class='top_header'>Captured</h1>
-			<div class="image-slider-wrapper">
-				<ul id="image_slider">
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
-				</ul>			
-			</div>
+		<div class="slideshow-container">
+  			<div class="mySlides fade">
+    			<div class="title">Captured</div>
+   				<img src="https://static.pexels.com/photos/4062/landscape-mountains-nature-lake.jpeg" style="width:100%">
+    			<div class="text">Caption Text</div>
+  			</div>
+  			<div class="mySlides fade">
+  				<div class="title">Captured</div>
+  				<img src="https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg" style="width:100%">
+    			<div class="text">Caption Two</div>
+    		</div>
+
+  			<div class="mySlides fade">
+    			<div class="title">Captured</div>
+    			<img src="http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg" style="width:100%">
+    			<div class="text">Caption Three</div>
+  			</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 		<ul class='nav'>
 			<li><a href="#">About Me</a></li>
 			<li><a href="#">Photo Library</a></li>
