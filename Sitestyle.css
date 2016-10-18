@@ -54,19 +54,6 @@ a:hover {
 	text-align: left;
 }
 
-/* Caption text */
-/*
-.text {
-  color: #f2f2f2;
-  font-size: 50px;
-  font-family: 'Tangerine', cursive;
-  padding: 8px 12px;
-  position: absolute;
-  bottom:0px;
-  width: 100%;
-  text-align: center;
-}
-*/
 
 .title {
   color: #f2f2f2;
@@ -92,10 +79,25 @@ a:hover {
 		top: 0;
 		left: 50px;
 	}
-
+.class {
+	background-image: 
+}
 
       
 
+/* Caption text */
+/*
+.text {
+  color: #f2f2f2;
+  font-size: 50px;
+  font-family: 'Tangerine', cursive;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:0px;
+  width: 100%;
+  text-align: center;
+}
+*/
 /*
     font-family: 'Londrina Shadow', cursive;
 
