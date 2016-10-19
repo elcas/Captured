@@ -1,29 +1,65 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>Captured</title>
-			<link rel="stylesheet" type="text/css" href="Sitestyle.css">
-			<script src="Javascript.js"></script>
-			<link href="https://fonts.googleapis.com/css?family=Codystar|Gentium+Basic|Sacramento|Tangerine:400,700" rel="stylesheet"> 
-		</head>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Captured</title>
+		<link rel="stylesheet" type="text/css" href="Sitestyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Codystar|Gentium+Basic|Sacramento|Tangerine:400,700" rel="stylesheet"> 
+	</head>
 	<body>
-		<header>
-		<h1 class='top_header'>Captured</h1>
-			<div class="image-slider-wrapper">
-				<ul id="image_slider">
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
-					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
-				</ul>			
+		<div class="slideshow-container">
+  			<div class="mySlides fade">
+    			<div class="title">Captured</div>
+   				<img src="https://static.pexels.com/photos/4062/landscape-mountains-nature-lake.jpeg" class="top_pics">
+    			<div class="text">	
+    				<ul class='nav'>
+						<li><a href="contact.html">About Me</a></li>
+						<li><a href="#">Photo Library</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul></div>
+  			</div>
+  			<div class="mySlides fade">
+  				<div class="title">Captured</div>
+  				<img src="https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg" class="top_pics">
+  				<div class="text">
+    		    	<ul class='nav'>
+						<li><a href="contact.html">About Me</a></li>
+						<li><a href="#">Photo Library</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
 			</div>
-		<ul class='nav'>
-			<li><a href="#">About Me</a></li>
-			<li><a href="#">Photo Library</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-		</header>
-		<h2></h2>
+  			<div class="mySlides fade">
+    			<div class="title">Captured</div>
+    			<img src="http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg" class="top_pics">
+    			<div class="text">
+    		    	<ul class='nav'>
+						<li><a href="contact.html">About Me</a></li>
+						<li><a href="#">Photo Library</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+  			</div>
+		</div>
+
+<!-- <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script> -->
+		<script src="Javascript.js"></script> 
 	</body>
+</html>
