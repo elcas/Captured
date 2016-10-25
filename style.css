@@ -54,7 +54,6 @@ a:hover {
 	text-align: left;
 }
 
-
 .title {
   color: #f2f2f2;
   font-size: 180px;
@@ -79,10 +78,10 @@ a:hover {
 		top: 0;
 		left: 50px;
 	}
-
+}
 /*Contact Page*/
 
-#contact_page{
+#contact-page{
 	background: url("http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg");
     background-size: cover;
     background-position: center;
@@ -92,7 +91,7 @@ a:hover {
 	width: 30%;
     padding: 12px 20px;
     margin: 0 50% 0 50%;
-    text-align:center;
+    text-align: center;
 	font-family: 'Tangerine', cursive;
     box-sizing: border-box;
     align-self: center;
@@ -103,7 +102,7 @@ a:hover {
     padding: 12px 20px;
     margin: 0 50% 0 50%;
     box-sizing: border-box;
-    text-align:center;
+    text-align: center;
 	font-family: 'Tangerine', cursive;
 }
 .form textarea {
@@ -114,34 +113,6 @@ a:hover {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    text-align:center;
+    text-align: center;
 	font-family: 'Tangerine', cursive;
 }
-
-      
-
-/* spare code */
-
-/*
-.text {
-  color: #f2f2f2;
-  font-size: 50px;
-  font-family: 'Tangerine', cursive;
-  padding: 8px 12px;
-  position: absolute;
-  bottom:0px;
-  width: 100%;
-  text-align: center;
-}
-*/
-/*
-    font-family: 'Londrina Shadow', cursive;
-
-    font-family: 'Gentium Basic', serif;
-
-    font-family: 'Tangerine', cursive;
-
-    font-family: 'Sacramento', cursive;
-
-    font-family: 'Codystar', cursive;
-*/
