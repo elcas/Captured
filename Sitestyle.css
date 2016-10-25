@@ -79,13 +79,49 @@ a:hover {
 		top: 0;
 		left: 50px;
 	}
-.class {
-	background-image: 
+
+/*Contact Page*/
+
+#contact_page{
+	background: url("http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form input[type=text]{
+	width: 30%;
+    padding: 12px 20px;
+    margin: 0 50% 0 50%;
+    text-align:center;
+	font-family: 'Tangerine', cursive;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.form input[type=email]{
+	width: 30%;
+    padding: 12px 20px;
+    margin: 0 50% 0 50%;
+    box-sizing: border-box;
+    text-align:center;
+	font-family: 'Tangerine', cursive;
+}
+.form textarea {
+    width: 30%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 0 50% 0 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align:center;
+	font-family: 'Tangerine', cursive;
 }
 
       
 
-/* Caption text */
+/* spare code */
+
 /*
 .text {
   color: #f2f2f2;
