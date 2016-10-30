@@ -41,7 +41,7 @@ a:hover {
   position: relative;
  
 }
-.top_pics {
+img.top_pics {
 	width: 100%;
 	height:300px;
 	text-align: left;
