@@ -6,13 +6,6 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
-.top_header{
-	color:blue;
-	font-family: 'Tangerine', cursive;
-	font-size:25%;
-	font-style: bold;
-	text-align: right;
-}
 .nav{
 	text-align: center;
 	padding: 0px;
@@ -40,7 +33,7 @@ a:hover {
 }
 
  /* Slideshow container */
-.slideshow-container {
+#slideshow-container {
   width: 100%;
   height: 300px;
   float: left; 
@@ -61,6 +54,20 @@ a:hover {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+#main_pics_top_left {
+	width: 500px;
+	height: 300px;
+}
+
+#main_pics_top_right {
+	width: 500px;
+	height: 300px;
+}
+
+.thumbnail {
+	border: none;
 }
 
 @media (max-width: 500px) {
