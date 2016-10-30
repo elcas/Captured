@@ -6,7 +6,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
-.nav{
+#nav{
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
@@ -18,10 +18,10 @@ body{
 	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
-.nav li{
+#nav li{
 	display: inline;
 }
-.nav a {
+#nav a {
 	color:white;
 	font-size: 40px;
 	padding: 40px;
@@ -56,18 +56,35 @@ a:hover {
   top: 0;
 }
 
-#main_pics_top_left {
-	width: 500px;
-	height: 300px;
+.main_pics,
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 550px;
+	height: 350px;
+}
+/*
+a.thumbnail {
+	border:none;
+}*/
+
+.main_pics:hover,
+.img-responsive:hover,
+.thumbnail > img:hover,
+.thumbnail a > img:hover,
+.carousel-inner > .item > img:hover,
+.carousel-inner > .item > a > img:hover, {
+	width: 600px;
+	height: 500px;
 }
 
-#main_pics_top_right {
-	width: 500px;
-	height: 300px;
-}
-
-.thumbnail {
-	border: none;
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: black;
+  border-width: 2px;
 }
 
 @media (max-width: 500px) {
@@ -86,6 +103,7 @@ a:hover {
 		left: 50px;
 	}
 }
+
 /*Contact Page*/
 
 #contact-page{
