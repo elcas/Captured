@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
 }
 
+/*
 @media (max-width: 500px) {
 	.nav li{ 
 		display: block;
@@ -65,6 +66,7 @@ body{
 	height: 350px;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	position: top;
 }
 
 .navbar-inverse {
@@ -77,6 +79,7 @@ body{
   	font-size: 30px;
   	font-family: 'Tangerine', cursive;
 }
+
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -84,31 +87,19 @@ body{
   	font-family: 'Tangerine', cursive;
   	font-weight: bold,
 }
-/*
-not working!!
 
-a.thumbnail {
-	border:none;
-}
-
-.main_pics:hover,
-.img-responsive:hover,
-.thumbnail > img:hover,
-.thumbnail a > img:hover,
-.carousel-inner > .item > img:hover,
-.carousel-inner > .item > a > img:hover, {
-	width: 600px;
-	height: 500px;
-}
+/*.thumbnail > a:hover,
+.thumbnail > img:hover {
+	border-color: black;
+  border-width: 2px;
+}*/
 
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: black;
-  border-width: 2px;
+  	width: 400px;
+	height: 400px;
 }
-*/
-
 
 /*Contact Page*/
 
