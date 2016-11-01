@@ -29,7 +29,22 @@ body{
 }
 */
 
-.title {
+.container {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 100%;
+	height: 300px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: top;
+}
+.title-1 {
   color: #f2f2f2;
   font-size: 180px;
   font-family: 'Tangerine', cursive;
@@ -38,39 +53,35 @@ body{
   top: 0;
   left: 0;
 }
+.title-2 {
+  color: #f2f2f2;
+  font-size: 120px;
+  font-family: 'Tangerine', cursive;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-.carousel-caption {
-	color: #f2f2f2;
-  	font-size: 180px;
-  	font-family: 'Tangerine', cursive;
+.carousel-caption-1 {
 	padding: 0px 0px 0px 0px;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
-
-.container {
+/*.carousel-caption-2 {
+	color: #f2f2f2;
+  	font-size: 10px;
+  	font-family: 'Tangerine', cursive;
 	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	width: 100%;
-	height: 350px;
-}
-
-.main_pics,
-.img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-	width: 100%;
-	height: 350px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	position: top;
-}
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
 
 .navbar-inverse {
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.65);
+	margin: 0px 0px 0px 0px;
 }
 
 .nav > li > a,
@@ -93,25 +104,36 @@ body{
 	border-color: black;
   border-width: 2px;
 }*/
-
+/*
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
   	width: 400px;
 	height: 400px;
-}
+}*/
 
 /*Hover effect*/
 
+
+.main_pics,
+.img-responsive {
+	width: 100%;
+	height: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: top;
+}
+
 .hovereffect {
-  width: 100%;
-  height: 100%;
   float: left;
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
-  border-radius: 25px;
+  margin-top: 30px;
+	border-radius: 14px 14px 14px 14px;
+	-moz-border-radius: 14px 14px 14px 14px;
+	-webkit-border-radius: 14px 14px 14px 14px;
+	border: 5px solid #7893b8;
 }
 
 .hovereffect .overlay {
@@ -123,11 +145,10 @@ a.thumbnail.active {
   left: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  border-radius: 25px;
 }
 
 .hovereffect:hover .overlay {
-  background-color: rgba(170,170,170,0.2);
+  background-color: rgba(170,170,170,0.5);
 }
 
 .hovereffect h2, 
@@ -142,14 +163,14 @@ a.thumbnail.active {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  border-radius: 25px;
+  width: 350px;
+  height: 400px;
 }
 
 .hovereffect:hover img {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  border-radius: 25px;
 }
 
 .hovereffect h2 {
@@ -157,7 +178,8 @@ a.thumbnail.active {
   font-family: 'Tangerine', cursive;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  top: 150px;
+  font-size: 40px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
 }
