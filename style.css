@@ -185,72 +185,49 @@ body{
 	display: block;
 	}	
 
-/*
-.hovereffect a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  text-transform: uppercase;
-  color: #fff;
-  border: 1px solid #fff;
-  margin: 50px 0 0 0;
-  background-color: transparent;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  font-weight: normal;
-  height: 85%;
-  width: 85%;
-  position: absolute;
-  top: -20%;
-  left: 8%;
-  padding: 70px;
-}*/
-/*
-.hovereffect:hover a.info {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  background-color: rgba(0,0,0,0.4);
-}*/
-
 /* Modal and modal buttons */
-.modal-title h4 {
-	font-size: 40px;
-  	font-family: 'Tangerine', cursive;
-}
-.model-body p {
-	font-size: 15px;
-  	font-family: 'Tangerine', cursive;
+.modal-header {
+    padding: 5px 5px 5px 20px;
 }
 
+.modal-title {
+	font-size: 45px;
+  	font-family: 'Tangerine', cursive;
+  	vertical-align: center;
+  	padding: 0px 0px 0px 0px;
+  	height: 50px;
+}
+.modal-text {
+	padding: 0px 0px 0px 0px;
+	color: black;
+}
+.modal-body {
+	padding: 0px 0px 0px 20px;
+}
+.modal-content  {
+	background: url(cloudslight1.jpg);
+}
+.buttons {
+	text-align: center;
+}
 .poemtitle {
-    background-color: rgba(0, 0, 0, 0.65); /* #555555;  Black – need to add transparency */
+    background-color: rgba(0, 0, 0, 0.65);
     border: none;
     color: white;
     border-radius: 4px;
-    padding: 10px 20px;
     text-align: center;
     display: inline-block;
     text-decoration: none; 
     font-size: 40px;
   	font-family: 'Tangerine', cursive;
-/* font type, size etc. */
+  	padding: 8px 15px;
+  	margin: 6px 3px 6px 3px;
 }
-
 .poemtitle:hover {
     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.38), 0 19px 52px 0 rgba(0,0,0,0.30);
 }
 
-
 /*Contact Page*/
-
 #contact-page{
 	background: url("http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg");
     background-size: cover;
