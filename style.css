@@ -5,7 +5,7 @@ head{
 body{
 	padding: 0px;
 	margin: 0px;
-	background-image: url("http://cdn.wallpapersafari.com/51/89/0HvKcY.jpg");
+	background-image: url("clouds-min.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -150,7 +150,7 @@ body{
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  width: 350px;
+  width: 400px;
   height: 400px;
 }
 
