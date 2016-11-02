@@ -220,6 +220,35 @@ body{
   background-color: rgba(0,0,0,0.4);
 }*/
 
+/* Modal and modal buttons */
+.modal-title h4 {
+	font-size: 40px;
+  	font-family: 'Tangerine', cursive;
+}
+.model-body p {
+	font-size: 15px;
+  	font-family: 'Tangerine', cursive;
+}
+
+.poemtitle {
+    background-color: rgba(0, 0, 0, 0.65); /* #555555;  Black – need to add transparency */
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none; 
+    font-size: 40px;
+  	font-family: 'Tangerine', cursive;
+/* font type, size etc. */
+}
+
+.poemtitle:hover {
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.38), 0 19px 52px 0 rgba(0,0,0,0.30);
+}
+
+
 /*Contact Page*/
 
 #contact-page{
