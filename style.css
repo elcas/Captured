@@ -10,25 +10,6 @@ body{
     background-repeat: no-repeat;
 }
 
-/*
-@media (max-width: 500px) {
-	.nav li{ 
-		display: block;
-		padding: 5px;
-    }
-    .nav a {
-		font-size: 30px;
-		padding: 0px;
-	}
-	.title {
-		font-size: 80px;
-		position: absolute;
-		top: 0;
-		left: 50px;
-	}
-}
-*/
-
 .container {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
@@ -100,8 +81,6 @@ body{
 }
 
 /*Hover effect*/
-
-
 .main_pics,
 .img-responsive {
 	width: 100%;
