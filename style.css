@@ -223,9 +223,14 @@ p {
 
 /*Contact Page*/
 #contact-page{
-	background: url("http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg");
-    background-size: cover;
+	background-image: url("sky_clouds-min.jpg");
     background-position: center;
+    background-width: 100%
+    background-height: 600px;
+    background-repeat: no-repeat;
+}
+.form {
+	margin:auto;
 }
 .form input[type=text]{
 	width: 30%;
@@ -233,8 +238,8 @@ p {
     margin: 0 50% 0 50%;
     text-align: center;
 	font-family: 'Tangerine', cursive;
+	font-size: 30px;
     box-sizing: border-box;
-    align-self: center;
 }
 .form input[type=email]{
 	width: 30%;
@@ -243,15 +248,17 @@ p {
     box-sizing: border-box;
     text-align: center;
 	font-family: 'Tangerine', cursive;
+	font-size: 30px;
 }
 .form textarea {
     width: 30%;
     height: 150px;
-    padding: 12px 20px;
+    padding: 10px 100px 20px 10px;
     margin: 0 50% 0 50%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     text-align: center;
 	font-family: 'Tangerine', cursive;
+	font-size: 30px;
 }
