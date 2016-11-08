@@ -289,5 +289,11 @@ p {
 }
 */
 /*Map Page*/
-
-#map { height: 400px; width: 100%; }
+#map { 
+  height: 400px; width: 100%; 
+}
+h1 {
+  font-family: 'Tangerine', cursive;
+  display:block;
+  text-align: center;
+}
