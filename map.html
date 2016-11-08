@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact</title>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Codystar|Gentium+Basic|Sacramento|Tangerine:400,700" rel="stylesheet"> 
+	</head>
+	<body class="contact-page">
+		<nav class="navbar navbar-inverse">
+	  		<div class="container-fluid">
+	    		<div class="navbar-header">
+	      			<a class="navbar-brand" href="index.html">Captured</a>
+	    		</div>
+		    	<ul class="nav navbar-nav">
+			        <li><a href="index.html">Poetry</a></li>
+			        <li class="active"><a href="map.html">Poetry HQ</a></li>
+		      		<li><a href="contact.html">Contact</a></li>
+		    	</ul>
+	  		</div>
+		</nav>
+		<div>
+			<h1>Poetry HQ</h1> 
+			<div id="map">
+			    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+			</div>
+		</div>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp-Ly_p7k5NVYFZcNu84w9LBg5xYizp9E&callback=initMap"> </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="JS/jquery-3.1.1.min.js"></script>
+		<!-- <script src="Javascript.js"></script> -->
+	</body>
+</html>

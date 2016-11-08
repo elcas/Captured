@@ -2,7 +2,16 @@ head{
 	padding: 0px;
 	margin: 0px;
 }
-body{
+/*.mainhtml { 
+  background: url("clouds-min.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+.mainbody {
 	padding: 0px;
 	margin: 0px;
 	background-image: url("clouds-min.jpg");
@@ -61,6 +70,11 @@ body{
   	font-size: 30px;
   	font-family: 'Tangerine', cursive;
 }
+
+.fb {
+  padding: 20px 20px 0px 0px;
+}
+
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -222,7 +236,18 @@ p {
 }
 
 /*Contact Page*/
-#contact-page{
+
+.contact-page {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+.form {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+/*#contact-page{
 	background-image: url("sky_clouds-min.jpg");
     background-position: center;
     background-width: 100%
@@ -262,3 +287,7 @@ p {
 	font-family: 'Tangerine', cursive;
 	font-size: 30px;
 }
+*/
+/*Map Page*/
+
+#map { height: 400px; width: 100%; }
