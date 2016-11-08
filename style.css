@@ -10,6 +10,10 @@ head{
   background-size: cover;
 }
 */
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 .mainbody {
 	padding: 0px;
@@ -72,7 +76,8 @@ head{
 }
 
 .fb {
-  padding: 20px 20px 0px 0px;
+  padding: 15px 20px 0px 0px;
+  height: 50px;
 }
 
 .navbar-brand,
@@ -99,7 +104,7 @@ script {
 }
 p {
 	color: #f2f2f2;
-	font-size: 20pt;
+	font-size: 10pt;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
 }
@@ -292,7 +297,7 @@ p {
 #map { 
   height: 400px; width: 100%; 
 }
-h1 {
+.maptitle {
   font-family: 'Tangerine', cursive;
   display:block;
   text-align: center;
